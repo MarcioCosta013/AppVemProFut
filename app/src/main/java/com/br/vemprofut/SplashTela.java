@@ -32,7 +32,7 @@ public class SplashTela extends AppCompatActivity {
     }
 
     private void ActivitySenha (){
-        Intent intent = new Intent(SplashTela.this, MainActivity.class); //indica a intenção de navegar entre activity's.
+        Intent intent = new Intent(SplashTela.this, menulateral.class); //indica a intenção de navegar entre activity's.
         startActivity(intent); //inicia a activity.
         finish(); //finaliza a activity.
 
